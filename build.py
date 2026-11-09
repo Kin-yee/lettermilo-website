@@ -97,6 +97,7 @@ def page_html(key: str, body: str) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-itunes-app" content="app-id=6814554188">
   <title>{html.escape(page['title'])}</title>
   <meta name="description" content="{html.escape(page['description'])}">
   <meta name="author" content="{SITE['publisher']}">

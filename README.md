@@ -128,8 +128,8 @@ reduced motion.
 ## Before publishing
 
 Keep the privacy policy aligned with the deployed hosting and app telemetry setup,
-including request logs, Sentry/Mixpanel retention, and privacy declarations. Keep the
-coming-soon copy until there is an App Store listing. Contact: Hoye Lam / Kin-Yee,
+including request logs, Sentry/Mixpanel retention, and privacy declarations. The homepage
+links to the App Store listing, `https://apps.apple.com/app/id6814554188`. Contact: Hoye Lam / Kin-Yee,
 `hoyelam@kin-yee.com`; Netherlands Chamber of Commerce number 75399423.
 
 The [iOS launch checklist](https://github.com/hoyelam/LetterMilo/blob/main/Docs/LaunchReadiness.md)

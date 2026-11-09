@@ -67,8 +67,6 @@ p { margin: 0 0 1rem; }
 .word-token.boat { right: 0; top: 37%; transform: rotate(6deg); }
 .word-token.pan { left: 6%; bottom: 0; transform: rotate(7deg); }
 .word-token.train { right: 6%; bottom: 2%; transform: rotate(-7deg); }
-.coming-soon { display: inline-flex; align-items: center; gap: 9px; margin-top: 10px; padding: 9px 13px; border-radius: 999px; background: rgba(244,203,97,.48); font-size: .88rem; font-weight: 800; }
-.coming-soon::before { content: ""; width: 8px; height: 8px; border-radius: 99px; background: var(--evergreen); }
 .section { padding: 88px 0; }
 .section-kicker { max-width: 720px; margin-bottom: 42px; }
 .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
@@ -95,6 +93,7 @@ p { margin: 0 0 1rem; }
 .note-card ul { padding-left: 1.25rem; margin-bottom: 0; }
 .cta { padding: 54px; border-radius: 38px; background: var(--honey); text-align: center; }
 .cta h2 { max-width: 750px; margin-inline: auto; }
+.cta-buttons { justify-content: center; }
 .site-footer { padding: 55px 0 28px; border-top: 1px solid var(--line); }
 .footer-inner { flex-wrap: wrap; align-items: flex-start; }
 .footer-inner p { margin: 10px 0 0; color: var(--muted); font-size: .92rem; }
