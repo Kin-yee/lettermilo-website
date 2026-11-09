@@ -28,8 +28,8 @@ BASE_PATH = BASE_URL.path
 PAGES = {
     "index": {
         "route": "/",
-        "title": "LetterMilo — Little reading adventures for iPad",
-        "description": "Practise English letter sounds, words, and short sentences with Milo on iPad.",
+        "title": "LetterMilo — Little reading adventures for iPhone and iPad",
+        "description": "Practise English letter sounds, words, and short sentences with Milo on iPhone and iPad.",
     },
     "privacy": {
         "route": "/privacy/",
@@ -124,7 +124,7 @@ def page_html(key: str, body: str) -> str:
   <header class="site-header"><div class="shell header-inner">{logo()}{nav}</div></header>
   <main id="main">{body}</main>
   <footer class="site-footer"><div class="shell footer-inner">
-    <div>{logo()}<p>A small reading companion for iPad.</p></div>
+    <div>{logo()}<p>A small reading companion for iPhone and iPad.</p></div>
     <div class="footer-links" aria-label="Footer links">
       <a href="/support/">Support</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a>
       <a href="mailto:{SITE['support_email']}">Email support</a>
