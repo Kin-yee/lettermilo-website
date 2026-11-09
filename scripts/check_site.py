@@ -107,8 +107,8 @@ def main() -> int:
     for required in (DIST / ".nojekyll", DIST / "robots.txt", DIST / "sitemap.xml", DIST / "assets" / "site.css", DIST / "assets" / "favicon.svg"):
         if not required.exists():
             errors.append(f"Missing {required.relative_to(DIST)}")
-    demo_assets = ["word-demo.js", "demo/word-mat.png", "demo/sound-m.wav", "demo/credits.txt"]
-    demo_assets += [f"demo/{clip}.m4a" for clip in ("find-letter", "try-again", "picture-word", "retry-picture-word", "great-job", "word-mat")]
+    demo_assets = ["word-demo.js", "demo/word-map.png", "demo/sound-m.wav", "demo/credits.txt"]
+    demo_assets += [f"demo/{clip}.m4a" for clip in ("find-letter", "try-again", "picture-word", "retry-picture-word", "great-job", "word-map")]
     demo_assets += [f"demo/milo/milo-{state}.webp" for state in ("idle", "talking", "listening", "success", "idle-still", "success-still")]
     for asset in demo_assets:
         if not (DIST / "assets" / asset).is_file():

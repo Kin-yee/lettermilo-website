@@ -87,9 +87,12 @@ The app is not required to build or publish the website.
 ## App screenshots
 
 `static/screenshots/` contains original 2064 × 2752 PNG captures of the iPad app,
-with the current Peekaboo branding. Captured on 21 September 2026 using the
-13-inch iPad Pro simulator and app source at `9fd0b11`. The wardrobe uses sample
-progress. Device frames are CSS; the screenshots are not cropped or retouched.
+copied unchanged from the iOS repository's `metadata/screenshots/raw/en-US/ipad-13/`:
+`06-free-games.png` (collections), `01-letter-sounds.png` (letter sound), and
+`05-dress-up.png` (wardrobe). They were captured on 27 October 2026 on the 13-inch
+iPad Pro simulator from `92de943`, the code in App Store build 1.0.0 (7). The shelf
+shows a free user; the wardrobe uses sample stars. Device frames are CSS; the
+screenshots are not cropped or retouched.
 Each image links to its full-resolution original and loads lazily on the homepage.
 
 When the app changes, recapture these screens from the iOS repository before
@@ -99,7 +102,7 @@ each full-size image.
 ## Sample exercises
 
 The homepage includes a letter exercise (**m**, choosing between a and m), followed
-by a picture-word exercise (**mat**, choosing between map, mat, and tap).
+by a picture-word exercise (**map**, choosing between map, nap, and tap; all three are words in the app).
 Players can retry and replay freely. Sound starts only after interaction; muting it
 shows the letter hint. The demo does not use the microphone or save progress.
 
