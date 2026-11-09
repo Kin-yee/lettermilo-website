@@ -269,7 +269,7 @@
     button.classList.add("is-correct");
     setChoicesDisabled(true);
     progressBar.value = round === "letter" ? 1 : 2;
-    feedback.textContent = round === "letter" ? "That’s m. You found it!" : "Mat. You matched it!";
+    feedback.textContent = round === "letter" ? "That’s m. You found it!" : "Map. You matched it!";
     hintButton.disabled = true;
     hearButton.disabled = false;
     setMilo("success");
@@ -339,7 +339,7 @@
       if (token !== imageToken || loader !== activeImageLoader) return;
       activeImageLoader = null;
       picture.src = loader.src;
-      picture.alt = "A mat";
+      picture.alt = "A map";
       picture.hidden = false;
       phase = "playing";
       root.dataset.state = "playing";
@@ -359,7 +359,7 @@
       feedback.textContent = "The picture couldn’t load. Please try again.";
       focusWithoutScrolling(imageRetry);
     }, { once: true });
-    loader.src = assetUrl("word-mat.png");
+    loader.src = assetUrl("word-map.png");
   }
 
   function showWordRound() {
@@ -380,7 +380,7 @@
     hintButton.textContent = "Hear instructions";
     hintButton.disabled = true;
     audioStatus.textContent = "";
-    setChoices(["map", "mat", "tap"], "mat");
+    setChoices(["map", "nap", "tap"], "map");
     loadWordPicture();
   }
 
@@ -391,7 +391,7 @@
     progressText.textContent = "Complete · 2 of 2";
     progressBar.value = 2;
     question.textContent = "You did it!";
-    feedback.textContent = "You found m and matched mat.";
+    feedback.textContent = "You found m and matched map.";
     setChoicesDisabled(true);
     hearButton.disabled = false;
     hintButton.disabled = true;
@@ -418,7 +418,7 @@
         holdSuccess: phase === "correct",
       });
     } else {
-      playSequence([{ file: "word-mat.m4a", mood: "talking" }], {
+      playSequence([{ file: "word-map.m4a", mood: "talking" }], {
         holdSuccess: phase === "correct" || phase === "complete",
       });
     }

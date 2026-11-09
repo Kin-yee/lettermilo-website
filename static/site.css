@@ -62,7 +62,7 @@ p { margin: 0 0 1rem; }
 .word-token img { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; }
 .word-token figcaption { font-size: .98rem; line-height: 1.2; font-weight: 800; }
 .word-token.apple { left: 4%; top: 3%; transform: rotate(-9deg); }
-.word-token.banana { right: 4%; top: 0; transform: rotate(8deg); }
+.word-token.car { right: 4%; top: 0; transform: rotate(8deg); }
 .word-token.map { left: 0; top: 38%; transform: rotate(-5deg); }
 .word-token.boat { right: 0; top: 37%; transform: rotate(6deg); }
 .word-token.pan { left: 6%; bottom: 0; transform: rotate(7deg); }

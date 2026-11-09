@@ -102,7 +102,7 @@ each full-size image.
 ## Sample exercises
 
 The homepage includes a letter exercise (**m**, choosing between a and m), followed
-by a picture-word exercise (**mat**, choosing between map, mat, and tap).
+by a picture-word exercise (**map**, choosing between map, nap, and tap; all three are words in the app).
 Players can retry and replay freely. Sound starts only after interaction; muting it
 shows the letter hint. The demo does not use the microphone or save progress.
 

@@ -44,7 +44,7 @@ PAGES = {
     "support": {
         "route": "/support/",
         "title": "Support — LetterMilo",
-        "description": "Help with LetterMilo, including sound, speech practice, progress, sharing, and privacy.",
+        "description": "Help with LetterMilo, including free games, Full Library purchases and restores, saved play, speech practice, and progress.",
     },
     "404": {
         "route": "/404.html",
@@ -125,7 +125,7 @@ def page_html(key: str, body: str) -> str:
   <main id="main">{body}</main>
   <footer class="site-footer"><div class="shell footer-inner">
     <div>{logo()}<p>A small reading companion for iPhone and iPad.</p></div>
-    <div class="footer-links" aria-label="Footer links">
+    <div class="footer-links">
       <a href="/support/">Support</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a>
       <a href="mailto:{SITE['support_email']}">Email support</a>
     </div>
